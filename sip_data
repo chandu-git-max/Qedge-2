@@ -11,3 +11,18 @@ AI PODS
 #JENKINS WEBHOOK JOB DEMO
 Developer Commits New code on SIP new services reievant
 code
+hi 
+jenkins source code
+)
+            update_file(
+                file,
+                int(lineno),
+                '@Deprecated(since = "TODO")',
+                f'@Deprecated(since = "{since_version}")',
+            )
+            update_file(
+                file,
+                int(lineno),
+                '@RestrictedSince("TODO")',
+                f'@RestrictedSince("{since_version}")',
+            )
